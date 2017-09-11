@@ -149,7 +149,6 @@ const builds = {
     dest: resolve('packages/weex-vue-framework/index.js'),
     format: 'cjs'
   },
-  // Weex compiler (CommonJS). Used by Weex's Webpack loader.
   'weex-compiler': {
     weex: true,
     entry: resolve('weex/entry-compiler.js'),
