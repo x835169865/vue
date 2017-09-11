@@ -35,7 +35,6 @@ const resolve = p => {
 }
 
 const builds = {
-  // Runtime only (CommonJS). Used by bundlers e.g. Webpack & Browserify
   'web-runtime-cjs': {
     entry: resolve('web/entry-runtime.js'),
     dest: resolve('dist/vue.runtime.common.js'),
